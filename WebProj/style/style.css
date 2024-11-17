@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.page{
+    padding:0;
+}
+
+header{
+    min-height: 650px;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+
+div.ad{
+    display:flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+div.ad div.first_trio{
+    display:flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+div.ad div.second_trio{
+    display:flex;
+    flex-direction: column;
+}
+.advert1{
+    height:33%;
+    border-left:5px solid rgb(255, 145, 0);
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.advert{
+    height:33%;
+    border-left:5px solid rgb(255, 145, 0);
+    font-size: 12px;
+}
+div.advert1 h1{
+        float:left;
+        
+    }
+/* Первое поле */
+div.first_space{
+    background-color:white;
+    color:black;
+}
+div.first-space div.cells {
+    display:flex;
+    flex-direction: row;
+    
+}
+div.first-space div.cells div.first-quatro{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+div.first-space div.cells div.second-quatro{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+}
+
+.cell{
+    padding:10px;
+    height:25%
+}
+
+div.content{
+    position: relative;
+}
+
+
+button {
+    border-radius: 5px;
+    border-color:#F14D34;
+    padding: 10px;
+    height:60px;
+    width:220px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+@media screen and (min-width: 770px) {
+    
+    #logo { margin-top:39px;}
+    header div.cap{
+        display:flex;
+    }
+    
+    header div.cap nav{
+        margin-top:39px;
+    }
+
+    header div.cap nav ul li{
+        position:relative;
+        float:left;
+    }
+    header div.cap nav ul li:hover > ul{
+        display:block;
+    }
+    
+    header div.cap nav ul li ul{
+        position:absolute;
+        left:0;
+        display:none;
+        background-color:#F14D34;
+    }
+    header div.cap nav ul li p{
+        margin-bottom:0;
+        padding-left: 10px;
+        font-size:18px;
+    }
+    
+    header div.cap nav ul li ul li{
+        width:100%;
+        border:1px solid rgba(0,0,0,0,.1);
+    }
+    header div.cap nav ul li ul li a{
+        margin-top:5px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    header div.cap nav ul li ul li a:hover{
+        background-color: rgb(173, 46, 0);
+        text-decoration: none;
+    }
+    header div.cap nav ul li a{
+        margin-left:15px;
+        margin-right:15px;
+        font-size:12px;
+        font-family: Ubuntu;
+        color:white;
+        display:block;
+    }
+    .drupal-support-menu{
+        border-bottom:3px solid #F14D34;
+        margin-right:10px;
+        margin-left:60px !important;
+        padding-left:0 !important;
+        padding-right:0 !important
+    }
+    .header-center{
+        display:flex;
+        margin:auto;
+        /* position:absolute;
+        left:10vw;
+        right: 10vw; */
+        margin-top:135px;
+    }
+    div.adv{
+        /* margin-top:135px;
+        margin-left: 130px;
+        margin-right:100px; */
+        /* min-width:506px; */
+        max-height:306px;
+        float:left;
+    }
+    div.adv h1{
+        font-size:52px;
+        font-weight:bolder;
+    }
+    div.adv p{
+        margin-top:15px;
+    }
+    div.adv button{
+        margin-top:55px;
+    }
+    div.ad{
+        margin-left: 20px;
+        /* margin-right:130px; */
+        display:flex;
+        flex-direction: column;
+        /* margin-top:170px; */
+        /* max-width: 593px; */
+    }
+    div.ad div.first_trio{
+        display:flex;
+        flex-direction: row;
+        max-width: none;
+        height:50%;
+    }
+    div.ad div.second_trio{
+        display:flex;
+        flex-direction: row;
+        height:50%;
+    }
+    .advert1 p{
+        margin-bottom: 0;
+    }
+
+    /* Первое поле */
+    div.first-space{
+        background-color:white;
+        color:black;
+        margin-top: 100px;
+        margin-left:130px;
+        margin-right:130px;
+    }
+    div.first-space div.cells {
+        display:flex;
+        flex-direction: column;
+    }
+    div.first-space div.cells div.first-quatro{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:50%;
+    }
+    div.first-space div.cells div.second-quatro{
+        display:flex;
+        flex-direction: row;
+        width:100%;
+        height:50%;
+    }
+    .cell{
+        padding-left:0;
+        padding-right:100px;
+        padding-top: 25px;
+        padding-bottom: 0;
+        height:182px;
+    }
+    .cell p{
+        max-width: 194px;
+    }
+
+
+    
+    
+
+}
+
+@media screen and (min-width: 950px) {
+    .header-center{
+        display:flex;
+        margin:auto;
+        padding-left: 150px;
+        padding-right:150px;
+        /* position:absolute;
+        left:10vw;
+        right: 10vw; */
+        margin-top:135px;
+    }
+    header div.cap{
+        display:flex;
+        padding-left: 150px;
+    }
+
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Light.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
